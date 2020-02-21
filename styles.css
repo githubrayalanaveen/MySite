@@ -1,36 +1,74 @@
 body {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+   text-align: center;
   font-family: 'Merriweather', serif;
   }
 
   p {
     font-size: 13px;
-  /*  font-weight: bold; */
-  }
+    }
 
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
   /*  font-size: 90px; If  chrome setting of user has large font then it should be dynamic to show. Ideal
   case is 100% which is 16px. To get 90px, caluclate accordingly */
-    font-size: 562.5%;
+    font-size: 5.625rem;
     font-family: 'Sacramento', cursive ;
-}
-.product, .psychology, .naveen {
+    color: #66BFBF;
+    }
+.product {
            height: 200px;
            border-radius: 504;
-           width: 200px;
            background-size: cover;
+           width: 25%;
+           float: left;
+           border-radius: 100%;
+           margin-right: 30px;
          }
 
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
+/* .code-desc {
+            clear: left;
 }
 
+.motivate{
+          clear: right;
+} */
+
+.psychology {
+                    height: 200px;
+                    border-radius: 504;
+                    background-size: cover;
+                    width: 25%;
+                    float: right;
+                    border-radius: 100%;
+                    margin-left: 30px;
+              }
+.naveen {
+            height: 200px;
+            border-radius: 504;
+            background-size: cover;
+          }
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+  line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #66BFBF;
+    font-weight: bold;
+    }
+
 h3 {
-  font-family: 'Montserrat', sans-serif ;
-  font-size: 15px;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 15px;
+    font-weight: normal;
+    color: #11999E;
   }
 
 div {
@@ -43,17 +81,18 @@ div {
   padding-top: 100px;
 }
 
-.middle-container {
+/* .middle-container {
 /*  background-color: red;
   width: 200px;
   height: 200px;*/
-}
+/*}
 
-.bottom-container {
+/*.bottom-container {
 /*  background-color: blue;
   width: 200px;
   height: 200px; */
-}
+/*} */
+
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
@@ -63,4 +102,8 @@ div {
   position: absolute;
   right: 300px;
   top: 50;
+}
+
+.footer-link {
+  color: #11999E;
 }
